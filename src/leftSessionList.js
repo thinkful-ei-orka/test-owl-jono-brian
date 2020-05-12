@@ -1,5 +1,5 @@
-import React from 'react'
-import participantsList from './participantsList'
+// import React from 'react'
+
 
 export default function leftSessionList(props){
     const leftSession  = props.filter(prop => prop.inSession === false);

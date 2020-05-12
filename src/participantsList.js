@@ -1,4 +1,4 @@
-import React from 'react';
+
 const participantsList = [
     {
         id: 1,
@@ -52,7 +52,7 @@ const participantsList = [
 //     onStage={participant.onStage} />
 //));
 
-console.log(participantsList);
+
 
 export default {
 participantsList,

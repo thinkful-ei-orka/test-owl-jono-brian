@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import leftSessionList from './leftSessionList'
-import participantsList from './participantsList'
-
+// import leftSessionList from './leftSessionList'
+// import participantsList from './participantsList'
+// import onStageList from './onStageList'
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -17,4 +17,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-leftSessionList(participantsList.participantsList);
