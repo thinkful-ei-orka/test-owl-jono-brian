@@ -1,5 +1,5 @@
 import React from 'react';
-const participants = [
+const participantsList = [
     {
         id: 1,
         name: 'Koren Templeton',
@@ -47,11 +47,14 @@ const participants = [
 //     }
 // ))
 
-const participantsList = participants.map(participant => (
-    <participant id={participant.id} name={participant.name} inSession={participant.inSession}
-    onStage={participant.onStage} />
-));
+// const participantsList = participants.map(participant => (
+//     <participant id={participant.id} name={participant.name} inSession={participant.inSession}
+//     onStage={participant.onStage} />
+//));
 
 console.log(participantsList);
 
-export default participants;
+export default {
+participantsList,
+
+}
